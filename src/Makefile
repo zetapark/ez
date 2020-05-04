@@ -1,4 +1,4 @@
-CFLAG = -O3 -g -c -std=c++17 -fmax-errors=1 -pthread
+CFLAG = -O3 -c -std=c++17 -fmax-errors=1 -pthread
 INCLUDE = -I../ -I/usr/include/jsoncpp
 DIR = $(notdir $(shell pwd))
 CC = g++
