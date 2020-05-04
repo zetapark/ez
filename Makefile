@@ -1,5 +1,5 @@
 SHELL := /bin/bash
-OPTION = 
+OPTION = -j 7
 
 all : 
 	make $(OPTION) -C util/
